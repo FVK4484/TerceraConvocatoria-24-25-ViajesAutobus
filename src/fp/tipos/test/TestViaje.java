@@ -1,8 +1,8 @@
 package fp.tipos.test;
 
 import java.time.Duration;
+
 import java.time.LocalTime;
-import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 

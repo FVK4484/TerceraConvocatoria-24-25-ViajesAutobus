@@ -72,7 +72,7 @@ public class Viaje {
 		return trayecto;
 	}
 	public void setTrayecto(List<Parada> trayecto) {
-		this.trayecto = trayecto;
+		this.trayecto = new ArrayList<>(trayecto);
 	}
 	
 	public Double getVelocidadMedia() {
